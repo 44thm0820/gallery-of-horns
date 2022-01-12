@@ -113,5 +113,14 @@ Start time: 840
 
 Finish time: 1040
 
-Actual time needed to complete: 
+Actual time needed to complete: 3hr 15min (right before midnight!)
 
+
+A question within the context of today’s lab assignment
+  How many ways to satisfy all three feature requirements including bootstrap?
+
+An observation about the lab assignment, or related ‘Ah-hah!’ moment
+  don't be afraid to try and fail by experimenting early instead of failing late once
+
+How long you spent working on this assignment
+too long... need to be more confident in one's self to finish earlier

@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# React State and Props - Day 2 of Lab01
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+By the end of this week, you will create an application that displays images and information of horned animals. This application will allow you to filter the images by number of horns and chose your favorite image.
 
-In the project directory, you can run:
+Today, your goal is to use the JSON file provided to display the title, image and description of each horned beast in your application.
 
-### `npm start`
+## Resources
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+data.json
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Time Estimate
 
-### `npm test`
+For each of the features listed below, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Number and name of feature: ________________________________
 
-### `npm run build`
+Estimate of time needed to complete: _____
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start time: _____
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Finish time: _____
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Actual time needed to complete: _____
 
-### `npm run eject`
+Add this information to your README.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Feature #1: Display Images
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Why are we implementing this feature
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+As a user, I want to view the images on the page so that I can browse the photo collection.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### What are we going to implement?
 
-## Learn More
+Given that a user opens the application in the browser
+When the user navigates to the home page
+Then the photo gallery should display all of the images in the gallery
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### How are we implementing it?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The Main component should pass props for the title, image and description to each HornedBeast component. You will find this information in the provided JSON file.
 
-### Code Splitting
+Feature #2: Allow users to vote for their favorite beast
+Why are we implementing this feature?
+As a user, I want to be able to interact with the site and pick my favorite beast.
+What are we going to implement?
+Given that a user clicks on an image, the number of “favorites” displayed on that image will increase by one.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+How are we implementing it?
+Create state inside of the HornedBeast component that keeps track of the number of times an image was clicked.
 
-### Analyzing the Bundle Size
+Put a heart in each horned beast with the number of times it was “favorited” next to it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feature 3: Bootstrap
+Why are we implementing this feature?
+As a user, I want to see a visually pleasing application that is also reponsive when I view this application on different screen sizes.
+What are we going to implement?
+Given that a user opens the application in the browser
+When the images are displayed on the screen
+Then each image should be rendered in a visually pleasing way
+The images should be displayed in columns, as screen width allows
 
-### Making a Progressive Web App
+How are we implementing it?
+Bring in the react-bootstrap library and use it to style your application making sure that it is responsive.
+Stretch Goal: Add Interaction
+Why are we implementing this feature?
+As a user, I want to be able to interact with each item on the page.
+What are we going to implement?
+Given that a user clicks on an item other than the horned beasts, such as the title of the page or the footer, the information and styles should change.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+How are we implementing it?
+When the user clicks on elements such as the header, footer or title of page, make something change using state.
+You can update the words, change the styles or add something new. Be creative.
+Submission Instructions
+Complete your Feature Tasks for the day
+Create a Pull Request (PR) back to the main branch of your repository
+On Canvas, submit a link to your PR and a link to your deployed application on Netlify. Add a comment in your Canvas assignment which includes the following:
+A question within the context of today’s lab assignment
+An observation about the lab assignment, or related ‘Ah-hah!’ moment
+How long you spent working on this assignment
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feature 1
+Number and name of feature: Feature 1 Display Images
 
-### Deployment
+Estimate of time needed to complete: 1 hour
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Start time: 735pm
 
-### `npm run build` fails to minify
+Finish time: 835pm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Actual time needed to complete: 28 min
+
+Feature 2
+Number and name of feature: Feature 2 Allow users to vote for their favorite beast
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 805pm
+
+Finish time: 905pm
+
+Actual time needed to complete: 34 min
+
+Feature 3
+Number and name of feature: Bootstrap
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 840
+
+Finish time: 1040
+
+Actual time needed to complete: 
+

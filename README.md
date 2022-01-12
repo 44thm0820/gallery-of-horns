@@ -102,7 +102,7 @@ Start time: 805pm
 
 Finish time: 905pm
 
-Actual time needed to complete: 803pm
+Actual time needed to complete: 34 min
 
 Feature 3
 Number and name of feature: 

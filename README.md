@@ -113,5 +113,5 @@ Start time: 840
 
 Finish time: 1040
 
-Actual time needed to complete: 
+Actual time needed to complete: 3hr 15min (right before midnight!)
 

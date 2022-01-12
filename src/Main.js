@@ -1,6 +1,5 @@
 import React from 'react';
 import HornedBeast from './HornedBeast.js';
-import Card from 'react-bootstrap/Card';
 import './Main.css';
 
 

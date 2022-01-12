@@ -1,19 +1,21 @@
 import React from 'react';
 import HornedBeast from './HornedBeast.js';
-import './Main.css'
+import Card from 'react-bootsrap/Card';
+import Row from 'react-bootstrap/Row';
+import './Main.css';
 
 
 class Main extends React.Component {
   render() {
 
-    let beastsArray = this.props.data.map( (beast, index) => 
-      <HornedBeast
+    let beastsArray = this.props.data.map( (beast, index) => {
+      return <HornedBeast
         key={'main'+index}
         image_url={beast.image_url}
         title={beast.title}
         description={beast.description}
       />
-    );
+    });
 
     return(
       <main>

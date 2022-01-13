@@ -1,3 +1,34 @@
+# Gallery of Horns - Day 3 of 4 of Lab 01
+
+> I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+
+### Author: Rey Mercado
+
+### Collaborators
+
+
+### Links and Resources
+* [submission PR](https://github.com/44thm0820/gallery-of-horns)
+* [How to Vertically Center A BootStrap Modal](https://react-bootstrap.github.io/components/modal/#vertically-centered)
+
+### Reflections and Comments
+* Consider including the answers to your daily journal and submission questions here
+* This is also a good place to reflect on the tools and resources used and learned
+
+### Lab-03
+
+Number and name of feature: Feature #1: Display a Modal
+
+Estimate of time needed to complete: 5 hours
+
+Start time: 330pm
+
+Finish time: 830pm
+
+Actual time needed to complete: 
+
+---older Readmes below---
+
 # React State and Props - Day 2 of Lab01
 
 ## Overview

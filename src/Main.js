@@ -17,6 +17,29 @@ class Main extends React.Component {
 
     return(
       <main>
+        <form onSubmit={this.handleSubmit}>
+          <fieldset>
+            <legend>Ponderings</legend>
+
+            <label>Name
+              <input name="name" onInput={this.handleName}/>
+            </label>
+
+            <label htmlFor="word">Word</label>
+            <input name="word" id="word" onChange={this.handleWord} />
+
+            <label htmlFor="selected">Make A Choice</label>
+            <select name="selected" id="selected" onChange={this.handleNumbers}>
+              <option value="all">All</option>                
+              <option value="odd">Odd</option>
+              <option value="even">Even</option>
+            </select>
+
+            <button type="submit">Submit</button>
+          
+          </fieldset>
+
+        </form>
         {beastsArray}
       </main>
     );

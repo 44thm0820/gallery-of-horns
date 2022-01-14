@@ -1,11 +1,38 @@
-# Gallery of Horns - Day 3 of 4 of Lab 01
+# Gallery of Horns - Day 4 of 4 of Lab 01
 
-> I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+> Today I will be adding a Form feature to my Gallery Of Horns that allows the user to use a drop down menu so that the user can choose to filter by number of horns.
+
 
 ### Author: Rey Mercado
 
-### Collaborators
+### Links and Resources
+* [submission PR](https://github.com/44thm0820/gallery-of-horns)
 
+* [How to structure a web form] https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form
+
+
+### Reflections and Comments
+* Consider including the answers to your daily journal and submission questions here
+* This is also a good place to reflect on the tools and resources used and learned
+
+### Lab-04
+
+Number and name of feature: Feature #1: Filter by Numbers of Horns
+
+Estimate of time needed to complete: 5 hours
+
+Start time: 3pm
+
+Finish time: 2am
+
+Actual time needed to complete: 
+
+---older Readmes below---# Gallery of Horns - Day 3 of 4 of Lab 01
+
+> Today I will be adding a feature to my Gallery Of Horns that allows the user to click on an image and display it as a modal. 
+
+
+### Author: Rey Mercado
 
 ### Links and Resources
 * [submission PR](https://github.com/44thm0820/gallery-of-horns)

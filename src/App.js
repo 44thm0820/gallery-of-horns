@@ -58,10 +58,17 @@ class App extends React.Component {
 
   render() {
     let nums = this.state.numbers.map(num => <ListGroup.Item key={num}>{num}</ListGroup.Item>);
+
     return(
       <>
         <Header />
-        <Main data={data}/>
+        <Main 
+          data={data}
+          handleNumbers={this.handleNumbers}
+          handleWord={this.handleWord}
+          handleSubmit={this.handleSubmit}
+
+        />
         <Footer />
       </>
     );

@@ -1,11 +1,9 @@
 # Gallery of Horns - Day 3 of 4 of Lab 01
 
-> I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+> Today I will be adding a feature to my Gallery Of Horns that allows the user to click on an image and display it as a modal. 
+
 
 ### Author: Rey Mercado
-
-### Collaborators
-
 
 ### Links and Resources
 * [submission PR](https://github.com/44thm0820/gallery-of-horns)
